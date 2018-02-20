@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+<children>
+
+    <Label alignment="CENTER" prefHeight="50" prefWidth="700" text="Welcome to the Typing Speed Project !" />
+    <Label fx:id="fxlabel" alignment="CENTER" layoutY="50" prefHeight="150.0" prefWidth="700.0" text="0">
+    <font> <Font size="48.0" /></font>
+    </Label>
+
+    <Button layoutX="175.0" layoutY="633.0" onAction="#startRace" prefHeight="35.0" prefWidth="116.0" text="start" />
+    <Button layoutX="400" layoutY="633.0" onAction="#stopRace" prefHeight="35.0" prefWidth="116.0" text="stop" />
+
+
+    <TextArea fx:id="fxtArea" editable="false" layoutY="200" prefHeight="175" prefWidth="700" />
+    <TextArea fx:id="fxtArea2" editable="false" layoutY="375" prefHeight="225" prefWidth="700" />
+
+
+
+</children>
+</Pane>
