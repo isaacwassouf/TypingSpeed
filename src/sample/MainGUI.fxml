@@ -6,17 +6,17 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #90caf9;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
 
 <children>
 
-    <Label alignment="CENTER" prefHeight="50" prefWidth="700" text="Welcome to the Typing Speed Project !" />
+    <Label alignment="CENTER" prefHeight="50" prefWidth="700" style="-fx-background-color: #FFFFFF;" text="Welcome to the Typing Speed Project !" textFill="#90caf9" />
     <Label fx:id="fxlabel" alignment="CENTER" layoutY="50" prefHeight="150.0" prefWidth="700.0" text="0">
     <font> <Font size="48.0" /></font>
     </Label>
 
-    <Button layoutX="175.0" layoutY="633.0" onAction="#startRace" prefHeight="35.0" prefWidth="116.0" text="start" />
-    <Button layoutX="400" layoutY="633.0" onAction="#stopRace" prefHeight="35.0" prefWidth="116.0" text="stop" />
+    <Button fx:id="bid" layoutX="175.0" layoutY="633.0" onAction="#startRace" prefHeight="35.0" prefWidth="116.0" style="-fx-background-color: #FFFFFF;" text="start" textFill="#90caf9" />
+    <Button layoutX="400" layoutY="633.0" onAction="#stopRace" prefHeight="35.0" prefWidth="116.0" style="-fx-background-color: #FFFFFF;" text="stop" textFill="#90caf9" />
 
 
     <TextArea fx:id="fxtArea" editable="false" layoutY="200" prefHeight="175" prefWidth="700" />
