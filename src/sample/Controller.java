@@ -79,7 +79,7 @@ public class Controller {
                     } else {
                         if (input.equals(subOriginal)) {
                             Platform.runLater(() -> {
-                                fxlabel.setTextFill(Color.GREEN);
+                                fxlabel.setTextFill(Color.WHITE);
                             });
                         } else {
                             Platform.runLater(() -> {
