@@ -21,6 +21,7 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 700, 700));
         //Image image = new Image("/Users/isaacwassouf/Desktop/TypingSpeed/icon.png");
         //primaryStage.getIcons().add(image);
+//        primaryStage.setResizable(false);
         primaryStage.show();
 
     }

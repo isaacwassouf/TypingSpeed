@@ -42,7 +42,7 @@ public class Controller {
                     String input = fxtArea2.getText().toString();
                     String subOriginal = original.substring(0, input.length());
 
-                    if (input.equals(original)&& counter>=45) {
+                    if (input.equals(original) && counter>=45) {
                         Platform.runLater(new Runnable() {
                             @Override
                             public void run() {
@@ -57,7 +57,7 @@ public class Controller {
                                 }
                             }
                         });
-                    } else if(input.equals(original)&& counter<=45){
+                    } else if(input.equals(original) && counter<45){
                         Platform.runLater(new Runnable() {
                             @Override
                             public void run() {
@@ -206,17 +206,17 @@ public class Controller {
         int ran= random.nextInt(3);
 
         if (ran==0){
-            fileReader= new FileReader(new File("/Users/isaacwassouf/Desktop/TypingSpeed/sourceText/Shaw"));
+            fileReader= new FileReader(new File("C:\\Users\\black\\Desktop\\TypingSpeed\\sourceText\\Shaw.txt"));
             result =getSource(fileReader);
             fileReader.close();
         }
         else if (ran==1){
-            fileReader= new FileReader(new File("/Users/isaacwassouf/Desktop/TypingSpeed/sourceText/RedDialog"));
+            fileReader= new FileReader(new File("C:\\Users\\black\\Desktop\\TypingSpeed\\sourceText\\RedDialog.txt"));
             result =getSource(fileReader);
             fileReader.close();
         }
         else if (ran==2){
-            fileReader= new FileReader(new File("/Users/isaacwassouf/Desktop/TypingSpeed/sourceText/RedDialog2"));
+            fileReader= new FileReader(new File("C:\\Users\\black\\Desktop\\TypingSpeed\\sourceText\\RedDialog2.txt"));
             result =getSource(fileReader);
             fileReader.close();
         }

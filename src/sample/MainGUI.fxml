@@ -19,8 +19,8 @@
     <Button layoutX="400" layoutY="633.0" onAction="#stopRace" prefHeight="35.0" prefWidth="116.0" style="-fx-background-color: #FFFFFF;" text="stop" textFill="#00bfa5" />
 
 
-    <TextArea fx:id="fxtArea" editable="false" layoutY="200" prefHeight="175" prefWidth="700" />
-    <TextArea fx:id="fxtArea2" editable="false" layoutY="375" prefHeight="225" prefWidth="700" />
+    <TextArea fx:id="fxtArea" editable="false" layoutY="200" prefHeight="175" prefWidth="700" wrapText="true" />
+    <TextArea fx:id="fxtArea2" editable="false" layoutY="375" prefHeight="225" prefWidth="700" wrapText="true" />
 
 
 
